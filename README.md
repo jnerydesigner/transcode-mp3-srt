@@ -1,5 +1,7 @@
 # Transcode MP3 SRT
 
+![Banner do Transcode MP3 SRT](banner.png)
+
 Aplicação local para transformar vídeos em arquivos de áudio e legendas. Para cada vídeo colocado na pasta `in/`, o programa:
 
 1. extrai o áudio em formato MP3 usando o FFmpeg;
