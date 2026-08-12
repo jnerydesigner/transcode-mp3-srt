@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambientes virtuais e variáveis locais
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Ferramentas e cobertura
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Arquivos gerados pela aplicação
+in/**
+!in/.gitkeep
+out/**
+!out/.gitkeep
+*.mp3
+*.wav
+*.srt
+*.mp4
+*.mov
+*.mkv
+*.webm
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
